@@ -5,3 +5,7 @@
     display: inline-block;
     margin-right: 2px;
 }
+
+.gridColumn:hover {
+    background-color: red;
+}
