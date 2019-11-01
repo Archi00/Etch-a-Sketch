@@ -1,6 +1,6 @@
 const container = document.getElementById("container");
 rows = document.getElementsByClassName("gridRow");
-columns = document.getElementsByClassName("gridColumn");
+cells = document.getElementsByClassName("gridColumn");
 
 myGrid();
 
@@ -20,5 +20,10 @@ function makeColumns(columnNumber){
             let column = document.createElement("div");
             rows[x].appendChild(column).className = "gridColumn";
         };
+    };
+};
+function mouseOver(){
+    if (document.getElementsByClassName("gridColumn").onmouseover = "true"){
+        return this.style.backgroundColor = "grey";
     };
 };
