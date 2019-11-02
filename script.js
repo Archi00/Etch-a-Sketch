@@ -22,8 +22,3 @@ function makeColumns(columnNumber){
         };
     };
 };
-function mouseOver(){
-    if (document.getElementsByClassName("gridColumn").onmouseover = "true"){
-        return this.style.backgroundColor = "grey";
-    };
-};
