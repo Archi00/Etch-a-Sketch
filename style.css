@@ -1,14 +1,20 @@
-.gridColumn {
-    border: 1px solid gray;
-    min-width: 20px;
-    min-height: 20px;
-    display: inline-block;
-    margin-right: 2px;
-    background-colr: white;
-    transition: 0s 180s;
-}
-
-.gridColumn:hover {
-    background-color: grey;
-    transition: 0s;
-}
+#container  {
+    text-align: center;
+    width: 425px;
+    height: 425px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .gridColumn {
+      border: 1px solid gray;
+      display: inline-block;
+      min-width: 20px;
+      min-height: 20px;
+      background-color: white;
+      transition: 0s 180s;
+  }
+  .gridColumn:hover {
+      background-color: grey;
+      transition: 0s;
+  }
+  

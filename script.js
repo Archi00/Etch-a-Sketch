@@ -1,12 +1,13 @@
 const container = document.getElementById("container");
-rows = document.getElementsByClassName("gridRow");
-cells = document.getElementsByClassName("gridColumn");
+let rows = document.getElementsByClassName("gridRow");
+let cells = document.getElementsByClassName("gridColumn");
+let userInputRows = prompt("How many rows and columns do you want?")
 
-myGrid();
+myGrid(userInputRows);
 
-function myGrid(){
-    makeRows(16);
-    makeColumns(16);
+function myGrid(userInputRows){
+    makeRows(userInputRows);
+    makeColumns(userInputRows);
 };
 function makeRows(rowNumber){
     for (let j = 0; j < rowNumber; j++){
